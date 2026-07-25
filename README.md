@@ -1,38 +1,41 @@
 # Sai Aravind Portfolio
 
-Responsive multi-page portfolio built with React, Vite and React Icons.
+A responsive multi-page developer portfolio built with React and Vite.
 
-## Run locally
+The portfolio highlights my backend development skills, professional experience, technical stack, and software projects in a clean and modern interface.
 
-```bash
-npm install
-npm run dev
-```
+## Features
 
-## Production build
+- Responsive design for desktop, tablet, and mobile
+- Multi-page navigation
+- Backend-focused professional profile
+- Experience and skills sections
+- Project showcase
+- Contact section
+- Resume access
+- Production-ready Vite build
+- Deployment-ready configuration for Vercel
 
-```bash
-npm run build
-npm run preview
-```
+## Tech Stack
 
-## Replace your details
+- React
+- Vite
+- JavaScript
+- CSS
+- React Router
+- React Icons
 
-Edit `src/data/portfolioData.js`:
+## Project Structure
 
-- Email and phone
-- GitHub and LinkedIn URLs
-- Repository URLs
-- About/project content if needed
+```text
+src/
+├── components/
+├── data/
+├── pages/
+├── styles/
+├── App.jsx
+└── main.jsx
 
-Replace:
-
-- `public/avatar-placeholder.svg` with your real photo (and update `avatar` path)
-- `public/resume/Sai-Aravind-Resume.pdf` with your resume
-- Add screenshots under `public/project-images/`
-
-## Deployment
-
-The generated `dist` folder can be deployed to Vercel, Netlify, Cloudflare Pages or any static host.
-
-For GitHub Pages with BrowserRouter, configure SPA fallback or switch to HashRouter.
+public/
+├── resume/
+└── project-images/
