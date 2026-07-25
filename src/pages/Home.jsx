@@ -31,7 +31,7 @@ export default function Home() {
           <div className="quick-grid">
             <div className="quick-card"><FiBriefcase /><span>Experience</span><strong>1+ Years</strong></div>
             <div className="quick-card"><FiMapPin /><span>Location</span><strong>{profile.location}</strong></div>
-            <div className="quick-card"><FiBriefcase /><span>Current role</span><strong>Assistant System Engineer</strong></div>
+            <div className="quick-card"><FiBriefcase /><span>Current role</span><strong>Junior Backend Engineer</strong></div>
             <div className="quick-card"><FiTarget /><span>Focus</span><strong>Backend Engineering & APIs</strong></div>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function Home() {
 
       <section className="section container home-about">
         <div><span className="eyebrow">A quick introduction</span><h2>Engineering reliable systems with clarity and care.</h2></div>
-        <div><p>I'm a Assistant System Engineer at TCS, passionate about building scalable backend applications using Python, FastAPI, PostgreSQL, Redis and Docker. I enjoy designing clean APIs, solving real-world problems and developing production-ready backend systems.</p><Link className="text-link" to="/about">More about me <FiArrowRight /></Link></div>
+        <div><p>I'm a Junior Backend Engineer at TCS, passionate about building scalable backend applications using Python, FastAPI, PostgreSQL, Redis and Docker. I enjoy designing clean APIs, solving real-world problems and developing production-ready backend systems.</p><Link className="text-link" to="/about">More about me <FiArrowRight /></Link></div>
       </section>
 
       <section className="section container">

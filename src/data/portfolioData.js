@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Sai Aravind',
   role: 'Backend Engineer',
-  currentRole: 'Assistant System Engineer',
+  currentRole: 'Junior Backend Engineer',
   location: 'Chennai, India',
   email: 'saiaravindcs@gmail.com',
   phone: '+91 00000 00000',
@@ -24,7 +24,7 @@ export const skills = [
 export const experience = [
   {
     company: 'Tata Consultancy Services',
-    role: 'Assistant System Engineer',
+    role: 'Junior Backend Engineer',
     period: 'May 2025 — Present',
     summary: 'Contributed to enterprise backend systems for the Cigna Middle East / KSA policy platform, ensuring reliable application workflows and data integrity.',
     bullets: [
