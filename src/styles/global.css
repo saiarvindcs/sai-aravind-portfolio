@@ -819,10 +819,12 @@ code {
         grid-template-columns: 1fr;
         padding-top: 48px
     }
+/*
 
     .hero-visual {
         grid-row: 1
     }
+        */
 
     .portrait-glow {
         max-width: 290px
